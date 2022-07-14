@@ -340,7 +340,7 @@ void _pchar(stack_t **head, unsigned int counter)
  * @counter: line_number
  * Return: no return
 */
-void _pchar(stack_t **head, unsigned int counter)
+void pchar(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
 
