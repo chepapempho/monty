@@ -34,7 +34,7 @@ void functions_monty(stack_t **stack, char *command_f, unsigned int line_numb)
 		{"pall", pall}, {"push", push}, {"pint", pint},
 		{"pop", pop}, {"swap", swap}, {"add", add},
 		{"nop", nop}, {"sub", sub}, {"div", _div},
-		{"mul", mul}, {"mod", mod}, {NULL, NULL}};
+		{"mul", mul}, {"mod", mod},{"pchar", pchar}, {NULL, NULL}};
 	unsigned int i = 0;
 	int checker = 0;
 
